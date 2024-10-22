@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Basic blog demo with blog posts.
+Home page indexes all posts and has links to them, as well as a button to create a new post.
 
-Things you may want to cover:
+# Post
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This object has title and content, it can be editted or deleted. 
