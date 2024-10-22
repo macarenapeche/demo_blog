@@ -52,6 +52,8 @@ group :development, :test do
 
   gem 'rspec-rails', '~> 7.0.0'
 
+  gem "rails-controller-testing"
+
   gem 'guard', '~> 2.14', '>= 2.14.1'
 
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
