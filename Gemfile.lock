@@ -75,6 +75,10 @@ GEM
       public_suffix (>= 2.0.2, < 7.0)
     ast (2.4.2)
     base64 (0.2.0)
+    better_errors (2.10.1)
+      erubi (>= 1.0.0)
+      rack (>= 0.9.0)
+      rouge (>= 1.0.0)
     bigdecimal (3.1.8)
     bindex (0.8.1)
     bootsnap (1.18.4)
@@ -280,6 +284,7 @@ GEM
     reline (0.5.10)
       io-console (~> 0.5)
     rexml (3.3.8)
+    rouge (4.4.0)
     rspec-core (3.13.2)
       rspec-support (~> 3.13.0)
     rspec-expectations (3.13.3)
@@ -418,10 +423,12 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  better_errors
   bootsnap
   brakeman
   bulma-rails (~> 1.0.0)
   capybara
+  dartsass-rails (~> 0.5.1)
   debug
   guard (~> 2.14, >= 2.14.1)
   guard-livereload (~> 2.5, >= 2.5.2)

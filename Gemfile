@@ -55,6 +55,8 @@ group :development, :test do
   gem 'guard', '~> 2.14', '>= 2.14.1'
 
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+
+  gem 'better_errors'
 end
 
 group :development do
@@ -67,3 +69,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "dartsass-rails", "~> 0.5.1"
