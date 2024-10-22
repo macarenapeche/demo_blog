@@ -4,12 +4,12 @@ class CommentsController < ApplicationController
 
   def create
     @comment = @post.comments.create(comment_params)
-    redirect_to post_path(@post), notice: 'Comment was successfully created.'
+    redirect_to post_path(@post), notice: "Comment was successfully created."
   end
 
   def destroy
     @comment.destroy
-    redirect_to post_path(@post), notice: 'Comment was successfully deleted.'
+    redirect_to post_path(@post), notice: "Comment was successfully deleted."
   end
 
   private

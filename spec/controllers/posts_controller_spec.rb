@@ -15,7 +15,7 @@ RSpec.describe PostsController, type: :request do
     it "renders a successful response" do
       get posts_path
       expect(response).to be_successful
-      expect(assigns(:posts)).to eq([post_instance])
+      expect(assigns(:posts)).to eq([ post_instance ])
     end
   end
 
