@@ -33,7 +33,7 @@ gem "bootsnap", require: false
 
 gem "pry", "~> 0.14.2"
 
-gem "bulma-rails", "~> 1.0.0"
+gem "bulma-rails", "~> 1.0.3"
 
 gem "simple_form"
 
